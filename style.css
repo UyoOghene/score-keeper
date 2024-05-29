@@ -1,4 +1,13 @@
+#containerbody{
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50em;
+    height: 40em;
+}
 #container{
+    position:absolute;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -24,16 +33,7 @@
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
-    background-color: lightpink;
-    width: 5em;   
-     height: 4em;
-
-}
-#p1btn{
-    margin: 5px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: lightpink;
+    background-color: rgb(58, 175, 215);
     width: 5em;   
      height: 4em;
 
@@ -42,7 +42,7 @@
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
-    background-color: lightpink;
+    background-color: greenyellow;
     width: 5em;   
      height: 4em;
 
@@ -51,7 +51,7 @@
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
-    background-color: lightpink;
+    background-color: rgb(218, 27, 55);
     width: 5em;   
      height: 4em;
 }
