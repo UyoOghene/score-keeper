@@ -3,11 +3,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50em;
-    height: 40em;
+    width: 40em;
+    height: 30em;
 }
 #container{
-    position:absolute;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -36,8 +35,8 @@
     background-color: rgb(58, 175, 215);
     width: 5em;   
      height: 4em;
-
 }
+
 #p2btn{
     margin: 5px;
     padding: 10px;
@@ -55,13 +54,28 @@
     width: 5em;   
      height: 4em;
 }
-#playto{
+#p1btn:hover{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(2, 48, 63);
+    width: 5em;   
+     height: 5em;
+}
+
+#p2btn:hover{
+    background-color: rgb(56, 90, 4);
+    width: 5em;   
+     height: 5em;
+
+}
+#resetbtn:hover{
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
-    background-color: lightpink;
-    width: 5em;    height: 2em;
-
+    background-color: rgb(169, 8, 32);
+    width: 5em;   
+     height: 5em;
 }
 
 .win{
